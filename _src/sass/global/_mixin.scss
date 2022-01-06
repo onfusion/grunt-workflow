@@ -1,0 +1,22 @@
+// SPRITES - USE ICONS WITHIN HTML INLINE TAGS
+// --------------------------------------------------------
+
+//$icon-spacing: 5px;
+$icon-layout: smart;
+@import "icon/*.png";
+@include all-icon-sprites(true);
+
+
+
+// SPRITES - USE MIXIN FOR BACKGROUND ICONS
+// --------------------------------------------------------
+$icon_bg: sprite-map("bg/*.png", $layout:  smart);	// */
+@mixin use-sprites($sprite) {
+	background-image: sprite-url($icon_bg);
+	background-position: sprite-position($icon_bg, $sprite);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: image-height(sprite-file($icon_bg, $sprite));
+	width: image-width(sprite-file($icon_bg, $sprite));
+	overflow: hidden;
+}

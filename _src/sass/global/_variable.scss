@@ -1,0 +1,36 @@
+// BASE FONT FAMILY CDN
+// --------------------------------------------------------
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,600|Ubuntu:400,500,700,300);
+
+
+// FONT FAMILY
+// --------------------------------------------------------
+$sansPro:						'Source Sans Pro', sans-serif;
+$ubuntu:						'Ubuntu', sans-serif;
+
+
+// FONT SIZE
+// --------------------------------------------------------
+$s_default:						14px;
+$size_sm:						12px;
+
+
+// FONT WEIGHTS
+// --------------------------------------------------------
+$light:							300;
+$normal:						400;
+$semi_bold:						500;
+$bold:							700;
+
+
+// BASE COLORS
+// --------------------------------------------------------
+$white:							#ffffff;
+$black:							#000000;
+
+
+// RADIUS
+// --------------------------------------------------------
+$r_default:						5px;
+$round:							20px;
+$circle:						100%;
